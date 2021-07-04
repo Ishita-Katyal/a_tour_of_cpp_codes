@@ -1,0 +1,50 @@
+--------------------------------------------------------------------------------------------------------------
+Book: A Tour of C++
+Author: Bjarne Stroustroup
+Creation Date: July 3, 2021
+--------------------------------------------------------------------------------------------------------------
+July 3 2021-Chapter:01
+--------------------------------------------------------------------------------------------------------------
+1. C is a procedural language.
+2. C++ is a compiled language: For a program to run, its source text (source files) has to be processed by a 
+   compiler, producing object files combined by a linker yielding executable program.
+3. An executable program is created for a specific hardware/system combo
+4. Executable is not portable; but source code is
+5. ISO C++ standard defines 2 types of entities:
+   5a. Core language features: built-in-types (char, int) and loops (for, while)
+   5b. Standard Library Components: containers (vecor, map) and I/O operations (<<, getline)
+6. C++ is statically-types: type of every entity must be known to the compiler at its point of use.
+7. main is a global function in C++. Program starts by executing that function.
+8. main returns an int value to the system.
+9. A non-zero return value from main() indicates failure.
+10. std::cout<< and std::cin>> are output and input streams respectively.
+11. In a string literal, a backslash denoted by a single character afterwards denotes a special character
+    also called escape sequences.
+12. \n --> new line
+13. never use if, if, if, else instead if, else if, else if, else if the if conditional is about the same
+    variable.
+14. Argument types are checked and implicit argument type conversion takes place when necessary.
+15. Function Overloading: When a function is overloaded, each function of teh same name should implement the
+    same semantics
+16. Declaration: statement that introduces a name into the program specifying the type for names entity.
+17. Type: defines a set of possible values and a set of operations.
+18. Object: some memory taht holds a value of some type.
+19. Value: set of bits interpreted according to a type.
+20. Variable: named object.
+21. Fundamental types in C++: bool(true/false, 1), char('a'-'z','0'-'9', 1), int(-infinity to +infinity, 4), 
+    double(floats, 8), unsigned(non-negative int)
+22. Logical Operators:
+    x&y  //bitwise and
+    x|y  //bitwise or
+    x^y  //bitwise exclusive or
+    ~x   //bitwise complement
+    x&&y //logical and
+    x||y //logical or
+23. Curly-brace-delimited initializer. For instance double d2 {2.3}: general list form;
+24. Conversions that lose information: Narrowing conversions such as double to int and int to char are implicitly 
+    applied. ~ imp for C compatibility
+25. When defining a variable, one doesn't need to state its type explicitly when it can be deduced from the 
+    initializer: auto b = true, auto ch = "x", auto = 123, auto d = 1.23, auto z = sqrt(y)
+26. With Auto, we use = because there is no potentially troublesome type conversion involved.
+27. 
+
